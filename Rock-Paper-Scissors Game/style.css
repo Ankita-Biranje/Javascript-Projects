@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    background-color: rgb(3, 3, 41);
+    color: white;
+    padding: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    gap: 20px;
+}
+
+.option{
+    height: 130px;
+    width: auto;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.option:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 41);
+}
+
+img {
+    height: 130px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.gamescore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    margin-top: 90px;
+}
+
+#user-point,
+#comp-point {
+    font-size: 40px;
+}
+
+.message {
+    margin-top: 90px;
+
+}
+
+.msg_para {
+    background-color: rgb(3, 3, 41);
+    font-size: 35px;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    display: inline;
+}
+
+.userMsg{
+   background-color: green;
+    font-size: 35px;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    display: inline;
+}
+
+.compMsg{
+   background-color: red;
+    font-size: 35px;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    display: inline;
+}
